@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ 
+   <link rel="stylesheet" href="../css/estilo.css" />
+</head>
+<!--Comentario-->
+<!-- 
+ 
+-->
+
+<body>
+<div class="col-md-4 mx-auto">
+    <div class="card text-center">
+        <div class="card-header">
+            <h3>NEW NOTE</h3>
+        </div>
+        <div class="card-body">
+            <form action="/tarea/crear" method="POST">
+                <div class="form-group" >
+                    <input type="text" placeholder="ingrese el titulo" name="titulo" class="form-control" />
+                </div>
+                 <div class="form-group" >
+                    <textarea placeholder="ingrese la descripcion" name="descripcion"  class="form-control"> </textarea>
+                </div>
+                <div class="form-group">
+                    <button class="btn btn-primary btn-block">
+                        GUARDAR
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+</html>
